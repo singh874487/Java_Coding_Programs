@@ -1,0 +1,31 @@
+
+1) The INTEGER data type stores whole numbers that range from -2,147,483,647 to 2,147,483,647 for 9 or 10 digits of precision
+		[-2147483648 to 2147483647]
+	
+	
+	
+	 
+	
+================================
+			Topics
+================================
+
+1) Integer
+	1) FizBuzz
+	2) Single Number
+	3) Reverse Integer
+	4) Palindrom Number
+	5) Factorial trailing zeroes
+	6) Power of Number
+	
+
+2) String
+	1) Reverse String
+	2) Longest Common Prefix
+	3) Repeated DNA Sequences
+	4) Valid Anagram
+	5) Longest Substring without repeatation
+	
+	
+	
+	
