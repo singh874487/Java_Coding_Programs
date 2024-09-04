@@ -13,14 +13,14 @@ public class HashMapSortByValue_2 {
 
         // Sort the map by values using streams
         LinkedHashMap<String, Integer> sortedMap = map.entrySet()
-            .stream()
-            .sorted(Map.Entry.comparingByValue())
-            .collect(Collectors.toMap(
-                Map.Entry::getKey,
-                Map.Entry::getValue,
-                (e1, e2) -> e1, // If there are duplicate keys, keep the existing key
-                LinkedHashMap::new // Collect into a LinkedHashMap to preserve the order
-            ));
+	            .stream()
+	            .sorted(Map.Entry.comparingByValue())
+	            .collect(Collectors.toMap(
+	                Map.Entry::getKey,
+	                Map.Entry::getValue,
+	                (e1, e2) -> e1, // If there are duplicate keys, keep the existing key
+	                LinkedHashMap::new // Collect into a LinkedHashMap to preserve the order
+	            ));
 
         // Print the sorted map
         sortedMap.forEach((key, value) -> System.out.println(key + ": " + value));
@@ -33,6 +33,7 @@ public class HashMapSortByValue_2 {
 /*
 
 Explanation:
+
 Step 1: map.entrySet().stream() converts the HashMap's entry set into a stream.
 Step 2: .sorted(Map.Entry.comparingByValue()) sorts the stream based on the values.
 Step 3: .collect(Collectors.toMap(...)) collects the sorted entries into a LinkedHashMap:

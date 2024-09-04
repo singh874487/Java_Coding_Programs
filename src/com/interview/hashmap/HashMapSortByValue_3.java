@@ -7,6 +7,7 @@ public class HashMapSortByValue_3 {
         // Create a HashMap
         HashMap<String, Integer> map = new HashMap<>();
         map.put("apple", 40);
+        map.put("Papaya", 30);
         map.put("banana", 10);
         map.put("cherry", 30);
         map.put("date", 20);

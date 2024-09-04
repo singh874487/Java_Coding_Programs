@@ -1,4 +1,4 @@
-package com.thread.test;
+package com.multithreading.test;
 
 public class Test1 {
 

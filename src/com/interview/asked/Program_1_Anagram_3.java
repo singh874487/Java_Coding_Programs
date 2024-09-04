@@ -46,7 +46,7 @@ public class Program_1_Anagram_3 {
 }
 
 
-// TC : O(nlogn)
+// TC : O(n)
 // SC : O(1)
 
 

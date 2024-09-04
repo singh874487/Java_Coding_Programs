@@ -5,7 +5,7 @@ package com.interview.asked;
 import java.util.HashSet;
 import java.util.Set;
 
-public class StringPermutations {
+public class Program_2_StringPermutations {
 
     public static void main(String[] args) {
         String s = "ABC"; // Input string

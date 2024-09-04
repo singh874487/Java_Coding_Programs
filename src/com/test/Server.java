@@ -1,22 +1,22 @@
 package com.test;
 
 public class Server {
-	
-	 String name;
-	    int returnValue;
 
-	    Server(String name, int returnValue) {
-	        this.name = name;
-	        this.returnValue = returnValue;
-	    }
+	String name;
+	int returnValue;
 
-	    public int getReturnValue() {
-	        return returnValue;
-	    }
+	Server(String name, int returnValue) {
+		this.name = name;
+		this.returnValue = returnValue;
+	}
 
-	    @Override
-	    public String toString() {
-	        return name;
-	    }
+	public int getReturnValue() {
+		return returnValue;
+	}
+
+	@Override
+	public String toString() {
+		return name;
+	}
 
 }

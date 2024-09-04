@@ -1,4 +1,4 @@
-package com.thread;
+package com.multithreading;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Test2 {

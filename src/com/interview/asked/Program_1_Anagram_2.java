@@ -1,5 +1,6 @@
 package com.interview.asked;
 
+import java.util.Arrays;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -28,7 +29,7 @@ public class Program_1_Anagram_2 {
 
         // Normalize strings: remove spaces, convert to lowercase, and sort characters
         String normalizedStr1 = normalize(str1);
-        String normalizedStr2 = normalize(str2);
+        String normalizedStr2 = normalize22(str2);
 
         // Check if the sorted versions are equal
         return normalizedStr1.equals(normalizedStr2);
@@ -37,6 +38,13 @@ public class Program_1_Anagram_2 {
     
     private static String normalize(String str) {
         return Stream.of(str.toLowerCase().split(""))
+                     .sorted()
+                     .collect(Collectors.joining());
+    }
+    
+    // For understanding
+    private static String normalize22(String str) {
+        return Arrays.stream(str.toLowerCase().split(""))
                      .sorted()
                      .collect(Collectors.joining());
     }
