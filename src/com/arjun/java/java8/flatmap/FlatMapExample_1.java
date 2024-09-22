@@ -1,4 +1,4 @@
-package com.interview.Java8.flatmap;
+package com.arjun.java.java8.flatmap;
 
 // 1. Flattening a List of Lists
 

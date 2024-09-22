@@ -1,11 +1,14 @@
-package com.multithreading.test;
+package com.arjun.java.multithreading;
 
-public class Test1 {
+// program to demonstrates thread synchronization, where one thread prints odd numbers 
+// and another prints even numbers up to a specified limit, showcasing coordinated thread communication.
+
+public class Program_2_Print_Odd_Even_using_Two_Thread {
 
 	private static volatile int counter = 0;
 	int limit = 0;
 
-	Test1(int x) {
+	Program_2_Print_Odd_Even_using_Two_Thread(int x) {
 		this.limit = x;
 	}
 
@@ -45,7 +48,7 @@ public class Test1 {
 
 	public static void main(String[] args) {
 
-		Test1 t = new Test1(10);
+		Program_2_Print_Odd_Even_using_Two_Thread t = new Program_2_Print_Odd_Even_using_Two_Thread(10);
 
 		Thread t1 = new Thread(new Runnable() {
 			public void run() {

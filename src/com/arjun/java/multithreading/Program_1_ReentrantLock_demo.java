@@ -1,8 +1,11 @@
-package com.multithreading;
+package com.arjun.java.multithreading;
 
 import java.util.concurrent.locks.ReentrantLock;
 
-public class Test1_ReentrantLock1 {
+// Program effectively demonstrates the use of ReentrantLock to manage concurrent access to a method, 
+// ensuring that threads can safely print messages without interfering with each other.
+
+public class Program_1_ReentrantLock_demo {
 
 	public static void main(String[] args) {
 
