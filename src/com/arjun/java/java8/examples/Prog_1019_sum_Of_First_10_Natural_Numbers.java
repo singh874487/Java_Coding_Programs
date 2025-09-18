@@ -1,0 +1,14 @@
+package com.arjun.java.java8.examples;
+
+import java.util.stream.IntStream;
+
+public class Prog_1019_sum_Of_First_10_Natural_Numbers {
+	
+	public static void main(String[] args) {
+
+		int sum = IntStream.range(1, 11).sum();
+
+		System.out.println(sum);
+
+	}
+}
